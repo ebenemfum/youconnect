@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.logoutLink{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1300px;
+    margin-top: -50px;
+    cursor: pointer;
+    
+}
+
+.logoutLink:hover{
+    color: #38B6FF;
+}
+
+.logo{
+    margin-left: 0px;
+    margin-top: -10px;
+
+}
+
+header{
+    position: fixed;
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+    border: 2px solid #d5f5ff;
+}
+
+.logout_btn{
+    padding: 5px;
+    background:#d5f5ff ;
+    text-decoration: none;
+    /* float: right; */
+    /* margin-top: -30px; */
+    margin-right: 40px;
+    border-radius:2px;
+    color: white;
+    transition: 0.5s;
+   /*  transition-property: background; */
+
+}
+
+.logout_btn:hover{
+    background: #1443AA;
+}
+
+
+.sidebar{
+    background: #d5f5ff;
+    margin-top: 120px;
+    padding-top: 30px;
+    position: fixed;
+    left:0;
+    width: 250px;
+    height: 100%;
+}
+
+.sidebar .profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.sidebar h4{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.sidebar a{
+    color: black;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition:0.5s;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    background: white ;
+}
+
+.side i{
+    padding-right: 10px;
+
+}
+
+td img{
+    height: 70px;
+    width: 70px;
+    border-radius:100% ;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+
+#Image{
+ padding-top: 200px;
+ padding-left: 308.99px;
+ 
+}
+
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    background-color: #aee3f3;
+    color:black;
+}
+td button:hover{
+    background-color: #1443AA;
+    color: white;
+}
+
+
+#Name{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+#Name1{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+
+#Qual{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#Qual1{
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: center;
+ 
+}
+
+
+#Action{
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+#Action1{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.header_fixed{
+    margin-left: 150px;
+}

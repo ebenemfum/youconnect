@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f4faff;
+    /* overflow-x: hidden; */
+    min-width: 1500px;
+}
+
+.logoutLink{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1300px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #4ca6f0;
+    
+}
+.logoutLink:hover{
+    color: #70d2ff;
+    text-decoration: none;
+}
+.uploadYourself{
+    position:relative;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 100px;   
+    margin-left: 70px;
+}
+
+.uploadPic{
+    display: block;
+    width: 100%;
+   
+}
+
+.uploadOverlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:opacity 0.25s;
+
+}
+
+.uploadOverlay--blur{
+    backdrop-filter: blur(10px);
+}
+
+.uploadOverlay:hover{
+    opacity: 1;
+}
+
+.uploadOverlay:hover >*{
+    transform: translateY(0);
+
+
+}
+
+.uploadName{
+    font-size:2em;
+    font-weight: bold;
+}
+
+.uploadOverlay > *{
+
+    transform:translateY(20px) ;
+    transition: transform 0.25s;
+}
+
+
+.uploadDesc{
+font-size: 1.25em;
+margin-top: 0.25em;
+}
+
+
+
+.bio{
+    margin-left: 175px;
+    margin-top: -130px;
+
+}
+
+.stars{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.chatLive{
+    width: 200px;
+    height: 50px;
+    border:none;
+    background-color:#70d2ff;
+    border-radius:4px;
+    box-shadow: inset 0 0 0 0 #4ca6f0;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-left: 790px;
+    margin-top: 110px;
+   
+}
+
+.chatLive:hover{
+    box-shadow: inset 300px 0 0 0 #4ca6f0;
+}
+
+.logo{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.search-box{
+    position: absolute;
+    left: 78%;
+    transform: translate(-100%, -50%);
+    background: #70d2ff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+
+}
+
+.search-box:hover > .search-btn{
+  background: #012a4b;
+}
+
+.search-btn{
+    color:white;
+    float: right;
+    width: 40px;
+    float: right;
+    height: 40px;
+    border-radius: 50%;
+    background: #012a4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+
+}
+
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+  
+/*   .sPredict{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1100px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #4ca6f0;
+  }
+
+
+.sPredict:hover{
+    color: #70d2ff;
+    text-decoration: none;
+} */
+
+.prediction{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1000px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #4ca6f0;
+    text-decoration-color:white ;
+}
+
+.prediction:hover{
+    color: #70d2ff;
+    text-decoration: none;
+} 
+
+/* 
+.hero{
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    float: left;
+} */
+/* 
+.img{
+    object-fit: cover;
+    opacity: 0.8;
+    width:fit-content;
+    object-fit:contain ;
+    margin-top: -10px;
+    float: left;
+    padding-top: -30px;
+    
+}  */
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    width: 100%;
+    margin-top: 0;
+    
+    
+
+
+}
+
+
+nav ul li{
+    margin-top: -10px;
+    align-items: left;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 10px;
+    margin-left: 00px;
+
+}
+
+nav ul li a{
+  color: #4ca6f0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul li a:hover{
+color:#012a4b;
+}
+
+
+/* .hero h1{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+}
+ */
+
+
+ .banner-area{
+     background-image: url("../userImages/eli.jpg");
+     background-size:cover;
+     background-position: center center;
+     top: 170px;
+     height: 30vh;
+     width: 100%;
+     /* position: fixed;  */
+ }
+
+ .banner-area::after{
+     content:'';
+     /* position: absolute; */
+     top:0;
+     left:0;
+     display: block;
+     width: 100%;
+     height: 10%;
+     /* background: rgb(0,0,0,1); */
+     opacity: .7;
+     z-index: -1;
+     margin-top: 100px;
+ }
+
+ .banner-area h2{
+     padding-top: 8%;
+     justify-content: center;
+     font-size: 80px;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto Mono', monospace;
+     font-family: 'Ubuntu', sans-serif;
+
+ }
+
+
+text{
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto Mono', monospace;
+     font-family: 'Ubuntu', sans-serif;
+     justify-content: center;
+     margin-left: 70px;
+
+
+
+}
+  
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto Mono', monospace;
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: -100px;
+}
+
+.container .card{
+    width: 335px;
+    position: relative;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0.5px 10px rgb(240, 253, 255); */
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    
+}
+
+.container .card .imgBx{
+    position:relative;
+    width: 300px;
+    height: 250px;
+    top:-60px;
+    left: 20px;
+    /* box-shadow: 0 5px 20px rgba(0,0,0,1.2); */
+}
+
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius:10px;
+}
+
+.imgBx:hover img{
+    transform: scale(1.1);
+}
+

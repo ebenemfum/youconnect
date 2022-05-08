@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+
+.logoutLink{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1300px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #4ca6f0;
+    
+}
+.logoutLink:hover{
+    color: #70d2ff;
+    text-decoration: none;
+}
+.uploadYourself{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 100px;
+    
+
+}
+
+.uploadPicture{
+    height:125px; 
+    width:120px;
+    border-radius: 100%;
+    margin-left: 20px;
+   
+}
+
+
+
+.bio{
+    margin-left: 175px;
+    margin-top: -130px;
+
+}
+
+.stars{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.chatLive{
+    width: 200px;
+    height: 50px;
+    border:none;
+    background-color:#70d2ff;
+    border-radius:4px;
+    box-shadow: inset 0 0 0 0 #4ca6f0;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-left: 790px;
+    margin-top: 110px;
+   
+}
+
+.chatLive:hover{
+    box-shadow: inset 300px 0 0 0 #4ca6f0;
+}
+
+.logo{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.search-box{
+    position: absolute;
+    left: 78%;
+    transform: translate(-100%, -50%);
+    background: #70d2ff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+
+}
+
+.search-box:hover > .search-btn{
+  background: #012a4b;
+}
+
+.search-btn{
+    color:white;
+    float: right;
+    width: 40px;
+    float: right;
+    height: 40px;
+    border-radius: 50%;
+    background: #012a4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+
+}
+
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+  
+/*   .sPredict{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1100px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #4ca6f0;
+  }
+
+
+.sPredict:hover{
+    color: #70d2ff;
+    text-decoration: none;
+} */
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    width: 100%;
+    margin-top: 0;
+    
+    
+
+
+}
+
+
+nav ul li{
+    margin-top: -10px;
+    align-items: left;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    padding: 10px 10px;
+    margin-left: 00px;
+
+}
+
+nav ul li a{
+  color: #4ca6f0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul li a:hover{
+color:#012a4b;
+}
