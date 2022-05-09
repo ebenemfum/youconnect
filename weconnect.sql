@@ -1,7 +1,7 @@
 #Task 2.2
-drop database if exists weconnect;
-create database weconnect;
-use weconnect;
+-- drop database if exists weconnect;
+-- create database weconnect;
+use heroku_7c5b6c3bdf49a1f;
 
 #Strong entities
 
