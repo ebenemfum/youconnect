@@ -17,10 +17,10 @@
 
             <nav>
                 <ul class="nav_links">
-                <li><a href="../AdminLogin.php">Admin Login</a></li>
+                <li><a href="ADMIN/AdminLogin.php">Admin Login</a></li>
                 <li><a href="#HOWW">How We Work</a></li>
                 <li><a href="#ABOUTT">About us</a></li>
-                <li><a href="../CreateAccountUser.h">Login</a></li>
+                <li><a href="userHtml/CreateAccountUser.h">Login</a></li>
             </nav>
             
             <a class="cta" href="#"><button>Contact Us</button></a>
@@ -41,8 +41,8 @@
                         <text class="small_landing_page_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni accusantium <br> inventore aliquam rerum iure, eos nulla alias voluptatum vel?</text>
                     
                         <div class="container" style="margin-left: -20px; margin-top: 50px;">
-                            <a href="../HireDevLogin.php"><button class="btn-1">Hire a Dev</button></a>
-                            <a href="../GetHiredLogin.php"><button class="btn-2">Get Hired</button></a>
+                            <a href="userHtml/HireDevLogin.php"><button class="btn-1">Hire a Dev</button></a>
+                            <a href="userHtml/GetHiredLogin.php"><button class="btn-2">Get Hired</button></a>
                             <button class="btn-3">Demo</button>    
                         </div>
                     </div>  
