@@ -5,7 +5,7 @@
         <title>Homepage</title>
         <meta name="decription" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../userCss/Homepage.css">
+        <link rel="stylesheet" href="userCss/Homepage.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
@@ -17,10 +17,10 @@
 
             <nav>
                 <ul class="nav_links">
-                <li><a href="AdminLogin.php">Admin Login</a></li>
+                <li><a href="userHtml/AdminLogin.php">Admin Login</a></li>
                 <li><a href="#HOWW">How We Work</a></li>
                 <li><a href="#ABOUTT">About us</a></li>
-                <li><a href="CreateAccountUser.h">Login</a></li>
+                <li><a href="userHtml/CreateAccountUser.php">Login</a></li>
             </nav>
             
             <a class="cta" href="#"><button>Contact Us</button></a>
@@ -41,13 +41,13 @@
                         <text class="small_landing_page_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni accusantium <br> inventore aliquam rerum iure, eos nulla alias voluptatum vel?</text>
                     
                         <div class="container" style="margin-left: -20px; margin-top: 50px;">
-                            <a href="HireDevLogin.php"><button class="btn-1">Hire a Dev</button></a>
-                            <a href="GetHiredLogin.php"><button class="btn-2">Get Hired</button></a>
+                            <a href="userHtml/HireDevLogin.php"><button class="btn-1">Hire a Dev</button></a>
+                            <a href="userHtml/GetHiredLogin.php"><button class="btn-2">Get Hired</button></a>
                             <button class="btn-3">Demo</button>    
                         </div>
                     </div>  
                     <div class="image">
-                        <img class="landing_page_logo" src="../userImages/LandingPicc.png" alt="we_connect_logo" >
+                        <img class="landing_page_logo" src="userImages/LandingPicc.png" alt="we_connect_logo" >
                     </div>
 
                 </div>
@@ -57,7 +57,7 @@
             
 
             <div class="Sponsors" >
-                <img class="Sponsors" src="../userImages/partners.png" alt="we_connect_logo" >
+                <img class="Sponsors" src="userImages/partners.png" alt="we_connect_logo" >
             </div>
 
 
@@ -65,13 +65,13 @@
 
 
             <div class="howTo_images">
-                <img class="howToLogo1" src="../userImages/select.png" alt="we_connect_logo" height=190px width=200px>
+                <img class="howToLogo1" src="userImages/select.png" alt="we_connect_logo" height=190px width=200px>
             
-                <img class="howToLogo2" src="../userImages/search.png" alt="we_connect_logo" height=190px width=200px>
+                <img class="howToLogo2" src="userImages/search.png" alt="we_connect_logo" height=190px width=200px>
             
-                <img class="howToLogo3" src="../userImages/manage.png" alt="we_connect_logo" height=190px width=200px>
+                <img class="howToLogo3" src="userImages/manage.png" alt="we_connect_logo" height=190px width=200px>
 
-                <img class="howToLogo3" src="../userImages/predict.png" alt="we_connect_logo" height=180px width=200px>
+                <img class="howToLogo3" src="userImages/predict.png" alt="we_connect_logo" height=180px width=200px>
         
             </div>
             <div class="howToImagesText">
@@ -84,7 +84,7 @@
 
 
             <div class="about11" style="display: flex; margin-top: 200px;" >
-                <img class="Sponsors1" src="../userImages/aboutPic.jpg" alt="we_connect_logo" >
+                <img class="Sponsors1" src="userImages/aboutPic.jpg" alt="we_connect_logo" >
  
                 <div class="about" style="margin-top: 100px; margin-left: 100px;">
                     <text class="AboutTitle" id="ABOUTT"> About us</text>
