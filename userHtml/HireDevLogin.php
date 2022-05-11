@@ -73,7 +73,7 @@
             
              
            if(mysqli_num_rows($result) > 0){ 
-                header("location: ITSpecialistList.html"); 
+                header("location: ITSpecialistList.php"); 
                  
                exit(); 
              }  
