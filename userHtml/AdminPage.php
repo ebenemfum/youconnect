@@ -34,71 +34,54 @@
         <a href="SoftwareDevUser.html"><i class="fas fa-bars-progress"></i> Sofware Dev Users<span></span> </a>
         
     </div>
-    <div class="header_fixed">
-        <table>
-            <thead>
-                <tr>
-                    <th id="Image">Image</th>
-                    <th id="Name">Name</th>
-                    <th id="Qual">Qualifications</th>
-                    <th id="Action">Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <td><img src="../ADMIN/Bobby.png"></td>
-                <td id="Name1">Bobby Brako</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Cindy.png"></td>
-                <td id="Name1">Cindy Osei</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Bobby.png"></td>
-                <td id="Name1">Kwame Fosu</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Dubois.png"></td>
-                <td id="Name1">Goka Okiete</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Eben.png"></td>
-                <td id="Name1">Baba Babs</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Ella.png"></td>
-                <td id="Name1">Amma Zebrona</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Kelvin.png"></td>
-                <td id="Name1">Ella Musid</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Rita.png"></td>
-                <td id="Name1">Turkson Dela</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-            <tbody>
-                <td><img src="../ADMIN/Tyler.png"></td>
-                <td id="Name1">Luby RcCarthy</td>
-                <td id="Qual1"><button>View</button></td>
-                <td id="Action1"><button>Delete</button></td>
-            </tbody>
-    </div>
+    <div class="container">
+      <div class="jumbotron">
+             <div class="card_main">
+                     <div class="card-body">
+                         <h5 class="card-title">IT Specialists</h5>
+                         <table class="table table-hover table-bordered">
+                                 <thead>
+                                     <tr>
+                                     <th scope="col">First Name</th>
+                                     <th scope="col">Last Name</th>
+                                     <th scope="col">Category</th>
+                                     <th scope="col">Bio</th>
+                                     <th scope="col">Job Experience</th>
+                                     <th scope="col">Skills</th>
+                                   
+                                     
+       
+                 
+                                     </tr>
+                                 </thead>
+
+                                 <?php
+                                       $s = mysqli_query($conn,"select*from Dev");
+                                       while($r=mysqli_fetch_array($s))
+                                       {
+                                       ?>
+                                         <tbody>
+                                         <tr>
+                                                  <th><?php echo $r['Fname'];?></th>
+                                                  <td><?php echo $r['Lname'];?></td>
+                                                  <td><?php echo $r['Category'];?></td>
+                                                  <td><?php echo $r['Bio'];?></td>
+                                                  <td><?php echo $r['job_experience'];?></td>
+                                                  <td><?php echo $r['skills'];?></td>
+                                                  
+                                                 
+                                         </tr>
+                                     </tbody>
+
+                                     <?php
+                                       }
+                                    ?>
+                                 
+                          </table>
+                     </div>
+                 
+             </div>
+        
     
 </body>
 </html>
